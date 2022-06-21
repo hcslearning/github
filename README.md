@@ -27,6 +27,15 @@ classDiagram
     }
 ```
 
+## Flowchart 
+
+```mermaid
+flowchart
+    Inicio[Inicio] --> esDescanso{Es día de descanso?} 
+    esDescanso --> |SI| descansar[Descansar]
+    esDescanso --> |NO| trabajar[trabajar]
+```
+
 ### Flowchart (other cases)
 
 ```mermaid
